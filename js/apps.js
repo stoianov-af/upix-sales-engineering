@@ -18,8 +18,7 @@ const FERRAMENTAS = [
     nome: 'Gerador de Mancha KMZ',
     resumo: 'Transforma uma lista de cidades na mancha de cobertura em KMZ, com os '
           + 'polígonos municipais oficiais do IBGE.',
-    // TODO: trocar pela URL de produção do portal Criar Mancha na Vercel.
-    url: '',
+    url: 'https://upix-kmz-dashboard.vercel.app',
     estado: 'disponivel',
     entrada: 'Planilha de cidades (CIDADE / UF)',
     saida: 'KMZ + relatório',
