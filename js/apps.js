@@ -29,8 +29,7 @@ const FERRAMENTAS = [
     nome: 'Wholesale Pricing',
     resumo: 'Precifica uma planilha de atacado: acha os parceiros de cada cidade, busca o '
           + 'menor custo na LPU e aplica as margens.',
-    // TODO: trocar pela URL de produção do portal Wholesale Pricing na Vercel.
-    url: '',
+    url: 'https://upix-wholesale-portal.vercel.app',
     estado: 'disponivel',
     entrada: 'Planilha de atacado (.xlsx)',
     saida: 'Arquivo de pré-venda + arquivo final',
