@@ -38,14 +38,27 @@ const FERRAMENTAS = [
   },
   {
     id: 'proposta',
-    nome: 'Proposta Técnica',
-    resumo: 'Monta a proposta técnico-comercial a partir dos dados do circuito, no padrão '
-          + 'da UPIX.',
+    nome: 'Gerador de Propostas',
+    resumo: 'Monta a proposta técnico-comercial no padrão da UPIX: reserva o número, '
+          + 'consulta a pegada on-net ao vivo e mede as páginas antes de gerar o arquivo.',
     url: '',
     estado: 'breve',
-    entrada: 'Dados do circuito',
-    saida: 'Proposta em .docx / .pdf',
+    entrada: 'Cliente, serviços e condições',
+    saida: 'Proposta em .html / .pdf',
     icone: 'documento',
+    restrito: true,
+  },
+  {
+    id: 'topologia',
+    nome: 'Gerador de Topologias',
+    resumo: 'Folha de topologia em PDF e bloco do projeto para o sistema interno, a partir de '
+          + 'um formulário curto.',
+    url: 'https://upix-topology-portal.vercel.app',
+    estado: 'disponivel',
+    entrada: 'Serviço, pontas, parceiro, BOM e card',
+    saida: 'Topologia em PDF + texto do projeto',
+    icone: 'documento',
+    restrito: true,
   },
   {
     id: 'treinamento',

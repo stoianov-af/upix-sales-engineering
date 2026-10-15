@@ -47,7 +47,8 @@ ferramentas no ar`) se atualiza sozinho.
 |---|---|---|
 | Gerador de Mancha KMZ | pronto, **falta a URL** | `../Dashboard KMZ` |
 | Wholesale Pricing | pronto, **falta a URL** | `../upix-wholesale-portal` |
-| Proposta Técnica | a fazer | — |
+| Gerador de Propostas | pronto, **falta a URL** | `../upix-proposal-portal` |
+| Gerador de Topologias | **no ar** · upix-topology-portal.vercel.app | `../upix-topology-portal` |
 | Treinamento Técnico | a fazer | — |
 
 As duas primeiras já existem e funcionam; só não foram publicadas na Vercel ainda. Assim
