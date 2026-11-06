@@ -37,6 +37,30 @@ const FERRAMENTAS = [
     restrito: true,
   },
   {
+    id: 'cotador',
+    nome: 'Cotador por Endereço',
+    resumo: 'Cota um endereço: identifica o município, lista todos os parceiros que atendem '
+          + 'com o custo de cada um e gera a nota interna da cotação.',
+    url: 'https://upix-cotador-portal.vercel.app',
+    estado: 'disponivel',
+    entrada: 'Endereço, serviço, capacidade e prazo',
+    saida: 'Opções por parceiro + nota interna',
+    icone: 'mapa',
+    restrito: true,
+  },
+  {
+    id: 'referencias',
+    nome: 'Referências UPIX',
+    resumo: 'Atualiza as planilhas de referência usadas pelos portais: confere o arquivo, '
+          + 'publica, guarda o histórico de versões e permite restaurar.',
+    url: 'https://upix-referencias-portal.vercel.app',
+    estado: 'disponivel',
+    entrada: 'Planilha de cobertura ou LPU (.xlsx)',
+    saida: 'Versão publicada para todos os portais',
+    icone: 'documento',
+    restrito: true,
+  },
+  {
     id: 'proposta',
     nome: 'Gerador de Propostas',
     resumo: 'Monta a proposta técnico-comercial no padrão da UPIX: reserva o número, '
